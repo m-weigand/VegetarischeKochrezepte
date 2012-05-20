@@ -1,0 +1,17 @@
+\contentsline {section}{Bauern Omlette}{6}
+\contentsline {section}{Cashew Ringelnudeln}{8}
+\contentsline {section}{Couscous Auflauf}{10}
+\contentsline {section}{Gnockii}{13}
+\contentsline {section}{Houmous}{15}
+\contentsline {section}{Ingwer-Curry}{17}
+\contentsline {section}{Kartoffelecken}{19}
+\contentsline {section}{Kartoffel-gratin}{21}
+\contentsline {section}{K\IeC {\"a}sepfannkuchen}{23}
+\contentsline {section}{Kubanisches Reisgericht}{25}
+\contentsline {section}{Kichererbsen Curry}{27}
+\contentsline {section}{Korma-Curry}{29}
+\contentsline {section}{M\IeC {\"o}hren-Kohl Curry}{31}
+\contentsline {section}{Schupfnudeln mit Satee-Sauce}{33}
+\contentsline {section}{Sherry Risotto}{35}
+\contentsline {section}{Vegetarisches Chilli}{37}
+\contentsline {section}{Zuccini Curry}{39}

@@ -1,0 +1,320 @@
+\documentclass[a5paper,12pt,final]{scrartcl}
+%\documentclass[a4paper,12pt,draft]{scrartcl}
+
+\usepackage{ngerman}
+
+% use multiple bibliographies
+
+%\usepackage{multibib}
+%\newcites{pap}{References}
+%\newcites{app}{ }
+
+% include graphics
+\usepackage{graphicx}
+
+% use linenumber
+%\usepackage[modulo]{lineno}
+%\linenumbers
+
+\usepackage[T1]{fontenc}
+
+% use utf8 encoding
+\usepackage[utf8]{inputenc}
+
+% use align environment
+\usepackage{amsmath}
+
+% table 3 is multiple pages long
+\usepackage{longtable}
+
+% Only for the time of writing
+\usepackage{setspace}
+\doublespacing
+
+% Citation style in references
+\usepackage{natbib}
+
+% Captions auch für nicht-floats
+\usepackage{caption}
+
+% for landscape pictures
+\usepackage{rotating}
+
+% handle urls
+\usepackage{url}
+
+% Title of table of content
+\renewcommand\contentsname{Contents}
+
+% Title of bibliography
+\renewcommand\refname{References}
+
+% 
+\usepackage{ifthen}
+
+%
+\usepackage{color}
+
+%% command printing a section titlte page
+%% params
+%% 1: main title
+%% 2: subtitle/author
+%% 3: footnote
+%% 4: sectionname
+%% 5: commands for the last empty page such as  newgeometriy
+%% 6: content on backpage
+\newcommand{\secpage}[6]
+{
+	\mbox { }
+	\newoddside
+	\mbox { }
+	% Startseiten-Blatt
+	%%% START
+	\thispagestyle{empty}
+    \helfont
+	\mbox{}
+
+	\vfill
+
+	\begin{center}
+	{\helfont \Huge  #1}\\[6ex]
+	{\fontfamily{phv}\fontsize{18pt}{18pt}\selectfont #2}
+	\end{center}
+	\vspace{5cm}
+	\begin{center}
+	\begin{minipage}{0.5\textwidth}
+		\begin{center}
+		
+		\end{center}
+	\end{minipage}
+	\end{center}
+	\vspace{4cm}
+	\vfill
+	#3
+	\addcontentsline{toc}{section}{#4}
+	\newpage
+	%%% Backpage
+    #6
+	\mbox { }
+	\newoddside
+	#5
+	\mbox { }
+}
+%%
+%% end newcommand
+%%
+
+% provides \isempty
+\usepackage{xifthen}
+%% new command printing the subsection title and adding this subsectino to the TOC
+%% param1: title
+%% param2: subsection
+%% 3: author
+\newcommand{\newsubsec}[3]
+{
+	\begin{center}
+		{\fontfamily{phv}\fontsize{18pt}{18pt}\selectfont #1}
+		\ifthenelse{\isempty{#3}}
+		{}
+		{\\[0.4cm]\fontfamily{phv}\fontsize{14pt}{14pt}\selectfont #3}
+	\end{center}
+	% add to toc
+	\addcontentsline{toc}{subsection}{#2}
+}
+
+% slightly large font size
+\newcommand{\slarge}{\fontsize{13}{17}\selectfont}
+
+% subsubsection
+\newcommand{\newsubsub}[1]
+{
+    \mbox{ }\newline
+    {\noindent \slarge \normalfont \helfont #1}
+    \mbox{ }\newline
+}
+
+
+% put the following on an odd page
+\newcommand{\newoddside}{
+	\ifthenelse{\isodd{\thepage}}{
+		\newpage
+		\textcolor{white}{placeholder} 
+		%\thispagestyle{empty}
+		\newpage
+	}
+	{\newpage}
+
+}
+
+% space between two letters
+\newcommand{\newletter}{
+	\vspace{1.5cm}
+}
+
+% page margins
+\usepackage{geometry}
+\geometry{a4paper,bottom=3cm, top=2.5cm, left=2.8cm, right=2.3cm}
+
+% we do not want to have section numbers (but a TOC).
+\setcounter{secnumdepth}{-1}
+
+% use linux libertine as font
+\usepackage[T1]{fontenc}
+%\usepackage{libertine}
+%\renewcommand*\oldstylenums[1]{{\fontfamily{fxlj}\selectfont #1}}
+
+% http://www-h.eng.cam.ac.uk/help/tpl/textprocessing/fonts.html
+%% Enable helvetica font
+\usepackage{helvet}
+%\usepackage{avant} \renewcommand{\familydefault}{\sfdefault}
+%\usepackage{newcent} \renewcommand{\familydefault}{\sfdefault}
+%\usepackage{bookman} \renewcommand{\familydefault}{\sfdefault}
+
+%% Control the fonts and formatting used in the table of contents.
+\usepackage{tocloft}
+%\renewcommand{\cftsecaftersnumb}{\rlap{\rule[-2.5mm]{0.5\textwidth}{.4pt}}}
+%\renewcommand{\cftsecaftersnum}{\hspace{4mm}\rule[-2.5mm]{0.5\textwidth}{.4pt}\hss}
+
+% TOC title
+\renewcommand{\cfttoctitlefont}{\Large\normalfont\bfseries}
+% section
+\renewcommand{\cftsecfont}{\large\normalfont\bfseries}
+% section page number
+\renewcommand{\cftsecpagefont}{\normalfont}
+
+
+% activate helvetica as default font
+\newcommand{\helfont}{
+    %\renewcommand{\familydefault}{\sfdefault}
+    \fontfamily{phv}\selectfont
+}
+
+% standard latex font?
+\newcommand{\oldfont}{
+%    \renewcommand{\familydefault}{\rmdefault}
+    \fontfamily{\rmdefault}\selectfont
+}
+
+
+%%
+%% Redefine section headings
+%%
+\makeatletter
+\renewcommand\section{\@startsection{section}{1}{\z@}%
+                     {-3.5ex \@plus -1ex \@minus -.2ex}%
+                     {2.3ex \@plus.2ex}%
+                     {\normalfont\Large\bfseries}}
+
+
+\makeatother
+
+%% background picture for first page
+\usepackage{tikz}
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{
+    \put(-10,0){
+        \parbox[b][\paperheight]{\paperwidth}{%
+        \vfill
+        \centering
+        \begin{tikzpicture}%
+            \node[opacity=0.15]{%was: 0.6
+                 % width=0.85 for all except variant 3
+                \includegraphics[height=\paperheight,
+                keepaspectratio]{bg.jpg}%
+            };
+%                \includegraphics[width=\paperwidth,height=\paperheight,
+        \end{tikzpicture}
+%        \vspace{5cm}
+        \vfill
+}}}
+
+\newcommand\BackgroundPicTitle{
+    \put(-10,0){
+        \parbox[b][\paperheight]{\paperwidth}{%
+        \vfill
+        \centering
+        \begin{tikzpicture}%
+            \node[opacity=0.55]{%was: 0.6
+                 % width=0.85 for all except variant 3
+                \includegraphics[height=\paperheight,
+                keepaspectratio]{bg.jpg}%
+            };
+%                \includegraphics[width=\paperwidth,height=\paperheight,
+        \end{tikzpicture}
+%        \vspace{5cm}
+        \vfill
+}}}
+\begin{document}
+\AddToShipoutPicture*{\BackgroundPicTitle}
+\helfont
+%\fontsize{15pt}{15pt}\selectfont
+%\fontsize{14pt}{14pt}\selectfont
+%\fontsize{14pt}{13pt}\selectfont
+%\fontsize{12pt}{12pt}\selectfont
+
+\thispagestyle{empty}
+\mbox{}
+
+\vfill
+
+\begin{center}
+{\oldfont\fontsize{34pt}{34pt}\selectfont \textbf{Vegetarische Gerichte}}\\[6ex]
+
+%{\fontsize{18pt}{18pt}\selectfont Emma und Walter Pr\''{o}lß} %\\[5cm]
+\end{center}
+\vspace{3cm}
+\vfill
+\mbox{ }
+\vfill
+\begin{center}
+%{\Large Neubearbeitung 2011}
+\end{center}
+
+\newpage
+\thispagestyle{empty}
+\AddToShipoutPicture{\BackgroundPic}
+\begin{center}
+    {}
+\end{center}
+\vfill
+\begin{center}
+
+\end{center}
+\newpage
+\thispagestyle{empty}
+\mbox{ }
+\vspace{-1cm}
+\renewcommand*\contentsname{Inhaltsverzeichnis}
+\setcounter{tocdepth}{2} 
+\tableofcontents
+%%% Seite 4
+\newpage
+%\thispagestyle{empty}
+\mbox{ }
+%\vfill
+%\mbox{}\hfill  \hfill \mbox{ }
+\newpage
+\mbox{}\hfill  \hfill \mbox{ }
+\newpage
+
+\include{Bauern-Omlette/rezept}
+\include{Bilder/rezept}
+\include{Cashew-Ringelnudeln/rezept}
+\include{Couscous-Auflauf/rezept}
+\include{Gnockii/rezept}
+\include{Hummus/rezept}
+\include{Ingwer-Curry/rezept}
+\include{Kartoffelecken/rezept}
+\include{Kartoffelgratin/rezept}
+\include{Kaesepfannkuchen/rezept}
+\include{Kubanisches-Reisgericht/rezept}
+\include{Kichererbsen-Curry/rezept}
+\include{Korma/rezept}
+\include{Moehren-Kohl-Curry/rezept}
+\include{Schupfnudeln-Satee/rezept}
+\include{Sherry-Risotto/rezept}
+\include{VegChilli/rezept}
+\include{Zuccini-Curry/rezept}
+
+\end{document}
+
