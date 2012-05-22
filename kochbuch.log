@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.5.18)  20 MAY 2012 11:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.5.18)  22 MAY 2012 08:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,14 +848,12 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 ))
 (./kochbuch.aux (./Bauern-Omlette/rezept.aux) (./Bilder/rezept.aux)
 (./Cashew-Ringelnudeln/rezept.aux) (./Couscous-Auflauf/rezept.aux)
-(./Gnockii/rezept.aux)
-No file Houmous/rezept.aux.
-(./Ingwer-Curry/rezept.aux) (./Kartoffelecken/rezept.aux)
-(./Kartoffelgratin/rezept.aux) (./Kaesepfannkuchen/rezept.aux)
-(./Kubanisches-Reisgericht/rezept.aux) (./Kichererbsen-Curry/rezept.aux)
-(./Korma/rezept.aux) (./Moehren-Kohl-Curry/rezept.aux)
-(./Schupfnudeln-Satee/rezept.aux) (./Sherry-Risotto/rezept.aux)
-(./Zuccini-Curry/rezept.aux))
+(./Gnocchi/rezept.aux) (./Hummus/rezept.aux) (./Ingwer-Curry/rezept.aux)
+(./Kartoffelecken/rezept.aux) (./Kubanisches-Reisgericht/rezept.aux)
+(./Kichererbsen-Curry/rezept.aux) (./Korma/rezept.aux)
+(./Moehren-Kohl-Curry/rezept.aux) (./Schupfnudeln-Satee/rezept.aux)
+(./Sherry-Risotto/rezept.aux) (./VegChilli/rezept.aux)
+(./Zucchini-Curry/rezept.aux))
 \openout1 = `kochbuch.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
@@ -1052,7 +1050,7 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 20.
+Package pdftex.def Info: bg.jpg used on input line 22.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
@@ -1061,17 +1059,22 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 [6
 
-]
+] <Bauern-Omlette/IMG_0885.JPG, id=31, 3099.58pt x 2063.71pt>
+File: Bauern-Omlette/IMG_0885.JPG Graphic file (type jpg)
+
+<use Bauern-Omlette/IMG_0885.JPG>
+Package pdftex.def Info: Bauern-Omlette/IMG_0885.JPG used on input line 26.
+(pdftex.def)             Requested size: 452.39865pt x 301.1984pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 28.
+Package pdftex.def Info: bg.jpg used on input line 30.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[7])
+[7 <./Bauern-Omlette/IMG_0885.JPG>])
 \openout2 = `Bilder/rezept.aux'.
 
 
@@ -1081,7 +1084,7 @@ No file Bilder/rezept.tex.
 (./Cashew-Ringelnudeln/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 16.
+Package pdftex.def Info: bg.jpg used on input line 20.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
@@ -1093,22 +1096,28 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 
-]
+] <Cashew-Ringelnudeln/burg.jpg, id=39, 308.352pt x 411.03563pt>
+File: Cashew-Ringelnudeln/burg.jpg Graphic file (type jpg)
+
+<use Cashew-Ringelnudeln/burg.jpg>
+Package pdftex.def Info: Cashew-Ringelnudeln/burg.jpg used on input line 24.
+(pdftex.def)             Requested size: 361.92029pt x 482.45264pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 24.
+Package pdftex.def Info: bg.jpg used on input line 28.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[9])
+[9 <./Cashew-Ringelnudeln/burg.jpg>])
 \openout2 = `Couscous-Auflauf/rezept.aux'.
 
  (./Couscous-Auflauf/rezept.tex
 File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
+
+<use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 26.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
@@ -1119,17 +1128,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [10
 
 
-]
-File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 31.
-(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+] <Couscous-Auflauf/IMG_6094.JPG, id=46, 4288.02pt x 2858.68pt>
+File: Couscous-Auflauf/IMG_6094.JPG Graphic file (type jpg)
 
-Overfull \hbox (678.98459pt too wide) has occurred while \output is active
- [][] 
- []
-
-[11]
+<use Couscous-Auflauf/IMG_6094.JPG>
+Package pdftex.def Info: Couscous-Auflauf/IMG_6094.JPG used on input line 35.
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 39.
@@ -1139,33 +1143,33 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[12])
-\openout2 = `Gnockii/rezept.aux'.
+[11 <./Couscous-Auflauf/IMG_6094.JPG>])
+\openout2 = `Gnocchi/rezept.aux'.
 
- (./Gnockii/rezept.tex
+ (./Gnocchi/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 17.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[13
+[12
 
 
 ]
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 25.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[14])
+[13])
 \openout2 = `Hummus/rezept.aux'.
 
  (./Hummus/rezept.tex
@@ -1178,10 +1182,15 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[15
+[14
 
 
-]
+] <Hummus/IMG_6096.JPG, id=62, 4288.02pt x 2858.68pt>
+File: Hummus/IMG_6096.JPG Graphic file (type jpg)
+
+<use Hummus/IMG_6096.JPG>
+Package pdftex.def Info: Hummus/IMG_6096.JPG used on input line 25.
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 29.
@@ -1191,51 +1200,43 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[16])
+[15 <./Hummus/IMG_6096.JPG>])
 \openout2 = `Ingwer-Curry/rezept.aux'.
 
  (./Ingwer-Curry/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 24.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[17
+[16
 
 
-]
+] <Ingwer-Curry/IMG_6088.JPG, id=70, 4288.02pt x 2858.68pt>
+File: Ingwer-Curry/IMG_6088.JPG Graphic file (type jpg)
+
+<use Ingwer-Curry/IMG_6088.JPG>
+Package pdftex.def Info: Ingwer-Curry/IMG_6088.JPG used on input line 28.
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 32.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[18])
+[17 <./Ingwer-Curry/IMG_6088.JPG>])
 \openout2 = `Kartoffelecken/rezept.aux'.
 
  (./Kartoffelecken/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
-(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
-
-Overfull \hbox (678.98459pt too wide) has occurred while \output is active
- [][] 
- []
-
-[19
-
-
-]
-File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 19.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
@@ -1243,90 +1244,57 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[20])
-\openout2 = `Kartoffelgratin/rezept.aux'.
-
- (./Kartoffelgratin/rezept.tex
-File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
-(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
-
-Overfull \hbox (678.98459pt too wide) has occurred while \output is active
- [][] 
- []
-
-[21
+[18
 
 
 ]
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 27.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[22])
-\openout2 = `Kaesepfannkuchen/rezept.aux'.
-
- (./Kaesepfannkuchen/rezept.tex
-File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
-(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
-
-Overfull \hbox (678.98459pt too wide) has occurred while \output is active
- [][] 
- []
-
-[23
-
-
-]
-File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
-(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
-
-Overfull \hbox (678.98459pt too wide) has occurred while \output is active
- [][] 
- []
-
-[24])
+[19])
 \openout2 = `Kubanisches-Reisgericht/rezept.aux'.
 
  (./Kubanisches-Reisgericht/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 27.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[25
+[20
 
 
-]
+] <Kubanisches-Reisgericht/IMG_3600.JPG, id=84, 4288.02pt x 2858.68pt>
+File: Kubanisches-Reisgericht/IMG_3600.JPG Graphic file (type jpg)
+
+<use Kubanisches-Reisgericht/IMG_3600.JPG>
+Package pdftex.def Info: Kubanisches-Reisgericht/IMG_3600.JPG used on input lin
+e 31.
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 35.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[26])
+[21 <./Kubanisches-Reisgericht/IMG_3600.JPG>])
 \openout2 = `Kichererbsen-Curry/rezept.aux'.
 
  (./Kichererbsen-Curry/rezept.tex
 File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
+<use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 28.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
@@ -1334,10 +1302,10 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[27
+[22
 
 
-] <Kichererbsen-Curry/IMG_6111.JPG, id=100, 4288.02pt x 2858.68pt>
+] <Kichererbsen-Curry/IMG_6111.JPG, id=91, 4288.02pt x 2858.68pt>
 File: Kichererbsen-Curry/IMG_6111.JPG Graphic file (type jpg)
 
 <use Kichererbsen-Curry/IMG_6111.JPG>
@@ -1345,7 +1313,7 @@ Package pdftex.def Info: Kichererbsen-Curry/IMG_6111.JPG used on input line 32.
 
 (pdftex.def)             Requested size: 226.19933pt x 150.79395pt.
 
-<Kichererbsen-Curry/IMG_6085.JPG, id=101, 4288.02pt x 2858.68pt>
+<Kichererbsen-Curry/IMG_6085.JPG, id=92, 4288.02pt x 2858.68pt>
 File: Kichererbsen-Curry/IMG_6085.JPG Graphic file (type jpg)
 
 <use Kichererbsen-Curry/IMG_6085.JPG>
@@ -1361,60 +1329,65 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[28 <./Kichererbsen-Curry/IMG_6111.JPG> <./Kichererbsen-Curry/IMG_6085.JPG>])
+[23 <./Kichererbsen-Curry/IMG_6111.JPG> <./Kichererbsen-Curry/IMG_6085.JPG>])
 \openout2 = `Korma/rezept.aux'.
 
 
 (./Korma/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 22.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[29
+[24
 
 
-]
+] <Korma/IMG_3250.JPG, id=99, 4288.02pt x 2858.68pt>
+File: Korma/IMG_3250.JPG Graphic file (type jpg)
+
+<use Korma/IMG_3250.JPG>
+Package pdftex.def Info: Korma/IMG_3250.JPG used on input line 26.
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 30.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[30])
+[25 <./Korma/IMG_3250.JPG>])
 \openout2 = `Moehren-Kohl-Curry/rezept.aux'.
 
  (./Moehren-Kohl-Curry/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 27.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[31
+[26
 
 
 ]
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 35.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[32])
+[27])
 \openout2 = `Schupfnudeln-Satee/rezept.aux'.
 
  (./Schupfnudeln-Satee/rezept.tex
@@ -1427,62 +1400,90 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[33
+[28
 
 
-]
+] <Schupfnudeln-Satee/IMG_6114.JPG, id=113, 4288.02pt x 2858.68pt>
+File: Schupfnudeln-Satee/IMG_6114.JPG Graphic file (type jpg)
+
+<use Schupfnudeln-Satee/IMG_6114.JPG>
+Package pdftex.def Info: Schupfnudeln-Satee/IMG_6114.JPG used on input line 22.
+
+(pdftex.def)             Requested size: 226.19933pt x 150.79395pt.
+
+<Schupfnudeln-Satee/IMG_6108.JPG, id=114, 4288.02pt x 2858.68pt>
+File: Schupfnudeln-Satee/IMG_6108.JPG Graphic file (type jpg)
+
+<use Schupfnudeln-Satee/IMG_6108.JPG>
+Package pdftex.def Info: Schupfnudeln-Satee/IMG_6108.JPG used on input line 24.
+
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 26.
+Package pdftex.def Info: bg.jpg used on input line 28.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[34])
+[29 <./Schupfnudeln-Satee/IMG_6114.JPG> <./Schupfnudeln-Satee/IMG_6108.JPG>])
 \openout2 = `Sherry-Risotto/rezept.aux'.
 
- (./Sherry-Risotto/rezept.tex
+
+(./Sherry-Risotto/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 28.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[35
+[30
 
 
 ]
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
+Package pdftex.def Info: bg.jpg used on input line 36.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[36])
+[31])
 \openout2 = `VegChilli/rezept.aux'.
 
  (./VegChilli/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 18.
+Package pdftex.def Info: bg.jpg used on input line 31.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[37
+[32
 
 
 ]
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 48.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
+Overfull \hbox (678.98459pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[33])
+\openout2 = `Zucchini-Curry/rezept.aux'.
+
+ (./Zucchini-Curry/rezept.tex
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 26.
@@ -1492,54 +1493,46 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[38])
-\openout2 = `Zuccini-Curry/rezept.aux'.
+[34
 
- (./Zuccini-Curry/rezept.tex
+
+] <Zucchini-Curry/IMG_5831.JPG, id=135, 4288.02pt x 2858.68pt>
+File: Zucchini-Curry/IMG_5831.JPG Graphic file (type jpg)
+
+<use Zucchini-Curry/IMG_5831.JPG>
+Package pdftex.def Info: Zucchini-Curry/IMG_5831.JPG used on input line 30.
+(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 11.
+Package pdftex.def Info: bg.jpg used on input line 34.
 (pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[39
-
-
-]
-File: bg.jpg Graphic file (type jpg)
- <use bg.jpg>
-Package pdftex.def Info: bg.jpg used on input line 19.
-(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
-
-Overfull \hbox (678.98459pt too wide) has occurred while \output is active
- [][] 
- []
-
-[40]) (./kochbuch.aux (./Bauern-Omlette/rezept.aux) (./Bilder/rezept.aux)
+[35 <./Zucchini-Curry/IMG_5831.JPG>]) (./kochbuch.aux
+(./Bauern-Omlette/rezept.aux) (./Bilder/rezept.aux)
 (./Cashew-Ringelnudeln/rezept.aux) (./Couscous-Auflauf/rezept.aux)
-(./Gnockii/rezept.aux) (./Hummus/rezept.aux) (./Ingwer-Curry/rezept.aux)
-(./Kartoffelecken/rezept.aux) (./Kartoffelgratin/rezept.aux)
-(./Kaesepfannkuchen/rezept.aux) (./Kubanisches-Reisgericht/rezept.aux)
+(./Gnocchi/rezept.aux) (./Hummus/rezept.aux) (./Ingwer-Curry/rezept.aux)
+(./Kartoffelecken/rezept.aux) (./Kubanisches-Reisgericht/rezept.aux)
 (./Kichererbsen-Curry/rezept.aux) (./Korma/rezept.aux)
 (./Moehren-Kohl-Curry/rezept.aux) (./Schupfnudeln-Satee/rezept.aux)
 (./Sherry-Risotto/rezept.aux) (./VegChilli/rezept.aux)
-(./Zuccini-Curry/rezept.aux))
+(./Zucchini-Curry/rezept.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 15246 strings out of 495007
- 269925 string characters out of 3179690
- 343227 words of memory out of 3000000
- 17980 multiletter control sequences out of 15000+200000
+ 15279 strings out of 495007
+ 270814 string characters out of 3179690
+ 344226 words of memory out of 3000000
+ 18014 multiletter control sequences out of 15000+200000
  22315 words of font info for 40 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 65i,15n,71p,481b,676s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,16n,71p,505b,676s stack positions out of 5000i,500n,10000p,200000b,50000s
  </home/mweigand/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.
 600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/mweiga
 nd/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/mw
@@ -1551,10 +1544,10 @@ k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on kochbuch.pdf (40 pages, 9698532 bytes).
+Output written on kochbuch.pdf (35 pages, 52068036 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
+ 276 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
