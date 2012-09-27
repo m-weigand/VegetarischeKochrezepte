@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.5.18)  22 MAY 2012 08:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2012.9.8)  27 SEP 2012 15:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,17 +6,16 @@ entering extended mode
 (./kochbuch.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ng
-erman, ngerman-x-2011-07-01, german, swissgerman, german-x-2011-07-01, loaded.
+erman, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2012/03/08 v3.10a KOMA-Script document class (article)
-
+Document Class: scrartcl 2012/05/15 v3.11 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2012/03/08 v3.10a KOMA-Script package (KOMA-Script-dependent 
-basics and keyval usage)
+Package: scrkbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2012/03/08 v3.10a KOMA-Script package (KOMA-Script-independent
- basics and keyval usage)
+Package: scrbase 2012/05/15 v3.11 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
@@ -29,7 +28,7 @@ Package scrlfile, 2011/03/09 v3.09 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
 ))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2011/05/30 v3.09a KOMA-Script package (handling toc-files)
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -52,16 +51,16 @@ Class scrartcl Info: You've used standard option `final'.
 (scrartcl)           you'd have to use `draft=false' there
 (scrartcl)           instead of `final', too.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 1263.
+ine 1265.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2012/03/08 v3.10a KOMA-Script font size class option (12p
-t)
+File: scrsize12pt.clo 2012/05/15 v3.11 KOMA-Script font size class option (12pt
+)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2012/03/08 v3.10a KOMA-Script package (type area)
+Package: typearea 2012/05/15 v3.11 KOMA-Script package (type area)
 
-Package typearea, 2012/03/08 v3.10a KOMA-Script package (type area)
+Package typearea, 2012/05/15 v3.11 KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -99,7 +98,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1177.
+(typearea)              on input line 1211.
 )
 \c@part=\count80
 \c@section=\count81
@@ -1059,12 +1058,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 [6
 
-] <Bauern-Omlette/IMG_0885.JPG, id=31, 3099.58pt x 2063.71pt>
+] <Bauern-Omlette/IMG_0885.JPG, id=31, 1003.75pt x 668.4975pt>
 File: Bauern-Omlette/IMG_0885.JPG Graphic file (type jpg)
 
 <use Bauern-Omlette/IMG_0885.JPG>
 Package pdftex.def Info: Bauern-Omlette/IMG_0885.JPG used on input line 26.
-(pdftex.def)             Requested size: 452.39865pt x 301.1984pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.3005pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 30.
@@ -1096,12 +1095,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 
-] <Cashew-Ringelnudeln/burg.jpg, id=39, 308.352pt x 411.03563pt>
+] <Cashew-Ringelnudeln/burg.jpg, id=39, 210.7875pt x 280.94963pt>
 File: Cashew-Ringelnudeln/burg.jpg Graphic file (type jpg)
 
 <use Cashew-Ringelnudeln/burg.jpg>
 Package pdftex.def Info: Cashew-Ringelnudeln/burg.jpg used on input line 24.
-(pdftex.def)             Requested size: 361.92029pt x 482.45264pt.
+(pdftex.def)             Requested size: 361.92029pt x 482.40085pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 28.
@@ -1128,12 +1127,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [10
 
 
-] <Couscous-Auflauf/IMG_6094.JPG, id=46, 4288.02pt x 2858.68pt>
+] <Couscous-Auflauf/IMG_6094.JPG, id=46, 1003.75pt x 669.50125pt>
 File: Couscous-Auflauf/IMG_6094.JPG Graphic file (type jpg)
 
 <use Couscous-Auflauf/IMG_6094.JPG>
 Package pdftex.def Info: Couscous-Auflauf/IMG_6094.JPG used on input line 35.
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 39.
@@ -1185,12 +1184,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [14
 
 
-] <Hummus/IMG_6096.JPG, id=62, 4288.02pt x 2858.68pt>
+] <Hummus/IMG_6096.JPG, id=62, 1003.75pt x 669.50125pt>
 File: Hummus/IMG_6096.JPG Graphic file (type jpg)
 
 <use Hummus/IMG_6096.JPG>
 Package pdftex.def Info: Hummus/IMG_6096.JPG used on input line 25.
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 29.
@@ -1216,12 +1215,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [16
 
 
-] <Ingwer-Curry/IMG_6088.JPG, id=70, 4288.02pt x 2858.68pt>
+] <Ingwer-Curry/IMG_6088.JPG, id=70, 1003.75pt x 669.50125pt>
 File: Ingwer-Curry/IMG_6088.JPG Graphic file (type jpg)
 
 <use Ingwer-Curry/IMG_6088.JPG>
 Package pdftex.def Info: Ingwer-Curry/IMG_6088.JPG used on input line 28.
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 32.
@@ -1273,13 +1272,13 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [20
 
 
-] <Kubanisches-Reisgericht/IMG_3600.JPG, id=84, 4288.02pt x 2858.68pt>
+] <Kubanisches-Reisgericht/IMG_3600.JPG, id=84, 1003.75pt x 669.50125pt>
 File: Kubanisches-Reisgericht/IMG_3600.JPG Graphic file (type jpg)
 
 <use Kubanisches-Reisgericht/IMG_3600.JPG>
 Package pdftex.def Info: Kubanisches-Reisgericht/IMG_3600.JPG used on input lin
 e 31.
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 35.
@@ -1305,21 +1304,21 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [22
 
 
-] <Kichererbsen-Curry/IMG_6111.JPG, id=91, 4288.02pt x 2858.68pt>
+] <Kichererbsen-Curry/IMG_6111.JPG, id=91, 702.625pt x 468.75125pt>
 File: Kichererbsen-Curry/IMG_6111.JPG Graphic file (type jpg)
 
 <use Kichererbsen-Curry/IMG_6111.JPG>
 Package pdftex.def Info: Kichererbsen-Curry/IMG_6111.JPG used on input line 32.
 
-(pdftex.def)             Requested size: 226.19933pt x 150.79395pt.
+(pdftex.def)             Requested size: 226.19933pt x 150.90468pt.
 
-<Kichererbsen-Curry/IMG_6085.JPG, id=92, 4288.02pt x 2858.68pt>
+<Kichererbsen-Curry/IMG_6085.JPG, id=92, 1003.75pt x 669.50125pt>
 File: Kichererbsen-Curry/IMG_6085.JPG Graphic file (type jpg)
 
 <use Kichererbsen-Curry/IMG_6085.JPG>
 Package pdftex.def Info: Kichererbsen-Curry/IMG_6085.JPG used on input line 36.
 
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 40.
@@ -1346,12 +1345,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [24
 
 
-] <Korma/IMG_3250.JPG, id=99, 4288.02pt x 2858.68pt>
+] <Korma/IMG_3250.JPG, id=99, 1003.75pt x 669.50125pt>
 File: Korma/IMG_3250.JPG Graphic file (type jpg)
 
 <use Korma/IMG_3250.JPG>
 Package pdftex.def Info: Korma/IMG_3250.JPG used on input line 26.
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 30.
@@ -1403,21 +1402,21 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [28
 
 
-] <Schupfnudeln-Satee/IMG_6114.JPG, id=113, 4288.02pt x 2858.68pt>
+] <Schupfnudeln-Satee/IMG_6114.JPG, id=113, 803.0pt x 534.99875pt>
 File: Schupfnudeln-Satee/IMG_6114.JPG Graphic file (type jpg)
 
 <use Schupfnudeln-Satee/IMG_6114.JPG>
 Package pdftex.def Info: Schupfnudeln-Satee/IMG_6114.JPG used on input line 22.
 
-(pdftex.def)             Requested size: 226.19933pt x 150.79395pt.
+(pdftex.def)             Requested size: 226.19933pt x 150.70476pt.
 
-<Schupfnudeln-Satee/IMG_6108.JPG, id=114, 4288.02pt x 2858.68pt>
+<Schupfnudeln-Satee/IMG_6108.JPG, id=114, 1003.75pt x 669.50125pt>
 File: Schupfnudeln-Satee/IMG_6108.JPG Graphic file (type jpg)
 
 <use Schupfnudeln-Satee/IMG_6108.JPG>
 Package pdftex.def Info: Schupfnudeln-Satee/IMG_6108.JPG used on input line 24.
 
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 28.
@@ -1496,12 +1495,12 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [34
 
 
-] <Zucchini-Curry/IMG_5831.JPG, id=135, 4288.02pt x 2858.68pt>
+] <Zucchini-Curry/IMG_5831.JPG, id=135, 1003.75pt x 669.50125pt>
 File: Zucchini-Curry/IMG_5831.JPG Graphic file (type jpg)
 
 <use Zucchini-Curry/IMG_5831.JPG>
 Package pdftex.def Info: Zucchini-Curry/IMG_5831.JPG used on input line 30.
-(pdftex.def)             Requested size: 452.39865pt x 301.5879pt.
+(pdftex.def)             Requested size: 452.39865pt x 301.75291pt.
 File: bg.jpg Graphic file (type jpg)
  <use bg.jpg>
 Package pdftex.def Info: bg.jpg used on input line 34.
@@ -1526,25 +1525,24 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 15279 strings out of 495007
- 270814 string characters out of 3179690
- 344226 words of memory out of 3000000
- 18014 multiletter control sequences out of 15000+200000
+ 15288 strings out of 495007
+ 271002 string characters out of 3179691
+ 344478 words of memory out of 3000000
+ 18023 multiletter control sequences out of 15000+200000
  22315 words of font info for 40 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  65i,16n,71p,505b,676s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/mweigand/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.
-600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/mweiga
-nd/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/mw
-eigand/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </hom
-e/mweigand/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk> <
-/home/mweigand/.texlive2012/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx3583.600p
-k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on kochbuch.pdf (35 pages, 52068036 bytes).
+ </home/mweigand/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk>{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} </home/mweigand/.texmf-va
+r/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/mweigand/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/mweigand/.texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1728.600pk> </home/mweigand/.texmf-var/fonts/pk/ljfour/jknapp
+en/ec/ecbx3583.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on kochbuch.pdf (35 pages, 2107028 bytes).
 PDF statistics:
  276 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
