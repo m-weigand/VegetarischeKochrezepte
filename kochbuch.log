@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2015.3.30)  15 FEB 2016 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.19)  5 SEP 2016 07:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **kochbuch.tex
 (./kochbuch.tex
 LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 2 languages loaded.
+Babel <3.9l> and hyphenation patterns for 7 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2013/12/19 v3.12 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -65,7 +65,7 @@ Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
                   Copyright (C) Markus Kohm, 1994-
 
 \ta@bcor=\skip41
-\ta@div=\count80
+\ta@div=\count79
 Package typearea Info: You've used standard option `a5paper'.
 (typearea)             This is correct!
 (typearea)             Internally I'm using `paper=a5'.
@@ -101,29 +101,28 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1330.
 )
-\c@part=\count81
-\c@section=\count82
-\c@subsection=\count83
-\c@subsubsection=\count84
-\c@paragraph=\count85
-\c@subparagraph=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
 \abovecaptionskip=\skip46
 \belowcaptionskip=\skip47
 \c@pti@nb@sid@b@x=\box26
-\c@figure=\count87
-\c@table=\count88
+\c@figure=\count86
+\c@table=\count87
 \bibindent=\dimen102
-) (/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty
-v2.5e 1998-07-08
+) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen103
-
-ngerman -- \language number for ngerman undefined, default 255 used,
-ngerman -- Please read "gerdoc.tex" how to install hyphenation patterns.
-ngerman -- \language number for naustrian undefined, default 255 used.
+ngerman -- \language number for naustrian undefined, default 4 used.
 ngerman -- \language number for French undefined, default 255 used.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
@@ -135,11 +134,18 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -156,10 +162,219 @@ Package: inputenc 2014/04/30 v1.2b Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
 
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
 
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip48
 
@@ -196,7 +411,7 @@ LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count94
 \c@MaxMatrixCols=\count95
-\dotsspace@=\muskip10
+\dotsspace@=\muskip11
 \c@parentequation=\count96
 \dspbrk@lvl=\count97
 \tag@help=\toks18
@@ -235,7 +450,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count105
 \LT@p@ftn=\toks22
 )
-Class scrartcl Info: longtable captions redefined on input line 29.
+Class scrartcl Info: longtable captions redefined on input line 30.
 
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -280,17 +495,13 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box33
 \rot@mess@toks=\toks23
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: xetex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xifthen/xifthen.sty
 Package: xifthen 2009/04/17 v1.3 Extended ifthen features
@@ -320,7 +531,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -441,25 +652,20 @@ ex
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2013/07/16  (rcs-revision 1.9)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2013/08/28  (rcs-revision 1.12)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
 f
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)
-\pgfsys@objnum=\count122
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count123
-\pgfsyssoftpath@bigbuffer@items=\count124
+\pgfsyssoftpath@smallbuffer@items=\count122
+\pgfsyssoftpath@bigbuffer@items=\count123
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -470,9 +676,10 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 LaTeX Info: Redefining \color on input line 702.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -489,7 +696,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen143
-\pgfmath@count=\count125
+\pgfmath@count=\count124
 \pgfmath@box=\box35
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
@@ -513,7 +720,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count126
+\c@pgfmathroundto@lastzeros=\count125
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
@@ -551,7 +758,7 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
-\pgf@picture@serial@count=\count127
+\pgf@picture@serial@count=\count126
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -584,7 +791,7 @@ File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen167
-\pgf@sys@shading@range@num=\count128
+\pgf@sys@shading@range@num=\count127
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -641,7 +848,7 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count129
+\pgf@plot@mark@count=\count128
 \pgfplotmarksize=\dimen172
 )
 \tikz@lastx=\dimen173
@@ -654,18 +861,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@figbox@bg=\box42
 \tikz@tempbox=\box43
 \tikz@tempbox@bg=\box44
-\tikztreelevel=\count130
-\tikznumberofchildren=\count131
-\tikznumberofcurrentchild=\count132
-\tikz@fig@count=\count133
+\tikztreelevel=\count129
+\tikznumberofchildren=\count130
+\tikznumberofcurrentchild=\count131
+\tikz@fig@count=\count132
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count134
-\pgfmatrixcurrentcolumn=\count135
-\pgf@matrix@numberofcolumns=\count136
+\pgfmatrixcurrentrow=\count133
+\pgfmatrixcurrentcolumn=\count134
+\pgf@matrix@numberofcolumns=\count135
 )
-\tikz@expandcount=\count137
+\tikz@expandcount=\count136
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -676,13 +883,7 @@ Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)))
+))
 (./kochbuch.aux (./Bauern-Omlette/rezept.aux) (./Bilder/rezept.aux)
 (./Cashew-Ringelnudeln/rezept.aux) (./Couscous-Auflauf/rezept.aux)
 (./Gnocchi/rezept.aux) (./Hummus/rezept.aux) (./Ingwer-Curry/rezept.aux)
@@ -690,30 +891,90 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./Kubanisches-Reisgericht/rezept.aux) (./Kichererbsen-Curry/rezept.aux)
 (./Kuerbissuppe/rezept.aux) (./Korma/rezept.aux) (./Maronen/rezept.aux)
 (./Moehren-Kohl-Curry/rezept.aux) (./Pfannkuchen/rezept.aux)
-(./Salatsausse/rezept.aux) (./Schupfnudeln-Satee/rezept.aux)
-(./Sherry-Risotto/rezept.aux) (./Schokocreme/rezept.aux)
-(./VegChilli/rezept.aux) (./Zucchini-Curry/rezept.aux) (./Diverses/rezept.aux))
+(./RoteLinsenSuppe/rezept.aux) (./Salatsausse/rezept.aux)
+(./Schupfnudeln-Satee/rezept.aux) (./Sherry-Risotto/rezept.aux)
+(./Schokocreme/rezept.aux) (./VegChilli/rezept.aux)
+(./Zucchini-Curry/rezept.aux) (./Diverses/rezept.aux))
 \openout1 = `kochbuch.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
-LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 248.
+LaTeX Font Info:    ... okay on input line 248.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count137
+\scratchdimen=\dimen179
+\scratchbox=\box45
+\nofMPsegments=\count138
+\nofMParguments=\count139
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count140
+\MPscratchDim=\dimen180
+\MPnumerator=\count141
+\makeMPintoPDFobject=\count142
+\everyMPtoPDFconversion=\toks38
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -745,40 +1006,50 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box45
-LaTeX Font Info:    Try loading font information for T1+phv on input line 249.
+\AtBeginShipoutBox=\box46
+LaTeX Font Info:    Try loading font information for T1+phv on input line 250.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 
 LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <34> not available
-(Font)              size <35.83> substituted on input line 261.
+(Font)              size <35.83> substituted on input line 262.
 
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <34> not available
-(Font)              size <35.83> substituted on input line 261.
+(Font)              size <35.83> substituted on input line 262.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 267.
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 268.
+<bg.jpg, id=4, 803.0pt x 534.99875pt>
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 276.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
 [1
 
-]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./bg.jpg>]
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 286.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
 [2] (./kochbuch.toc
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 20.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -787,22 +1058,31 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \tf@toc=\write4
 \openout4 = `kochbuch.toc'.
 
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 294.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
 [4]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 299.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
 [5]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 301.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -818,26 +1098,11 @@ File: omsphv.fd
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 28.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-Overfull \hbox (2.08267pt too wide) in paragraph at lines 13--15
-[]\T1/phv/m/n/12 1/2 Päckchen gefriergetrocknete Kräuter aus dem gutsortierten 
-Tiefkühlsortiment 
- []
-
-
-Overfull \hbox (37.89229pt too wide) in paragraph at lines 20--26
-\T1/phv/m/n/12 Kartoffeln dazu schneiden und vermischen. Auf mittlerer Hitze br
-aten lassen und regelmäßig
- []
-
-
-Overfull \hbox (11.60014pt too wide) in paragraph at lines 20--26
-\T1/phv/m/n/12 die Kräuter unterrühren. Wenn die Kartoffeln schön knusprig sind
-, das Rührei dazugeben
- []
-
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -845,10 +1110,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [7
 
 ]
-File: Bauern-Omlette/IMG_0885._small.jpg Graphic file (type QTm)
- <use  "Bauern-Omlette/IMG_0885._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 36.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -861,13 +1127,11 @@ No file Bilder/rezept.tex.
 \openout2 = `Cashew-Ringelnudeln/rezept.aux'.
 
 (./Cashew-Ringelnudeln/rezept.tex
-Overfull \hbox (16.04099pt too wide) in paragraph at lines 13--18
-\T1/phv/m/n/12 Dann Nudeln und Cashews dazugeben und verrühren. Mit Salz und Pf
-effer abschmecken. 
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 20.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -878,10 +1142,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: Cashew-Ringelnudeln/burg.jpg Graphic file (type QTm)
- <use  "Cashew-Ringelnudeln/burg.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 28.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -890,8 +1155,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Couscous-Auflauf/rezept.aux'.
 
  (./Couscous-Auflauf/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 34.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -899,21 +1167,32 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [11
 
 
-]
-File: Couscous-Auflauf/IMG_6094._small.jpg Graphic file (type QTm)
- <use  "Couscous-Auflauf/IMG_6094._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+] <Couscous-Auflauf/IMG_6094_small.jpg, id=48, 1027.84pt x 685.56125pt>
+File: Couscous-Auflauf/IMG_6094_small.jpg Graphic file (type jpg)
+
+<use Couscous-Auflauf/IMG_6094_small.jpg>
+Package pdftex.def Info: Couscous-Auflauf/IMG_6094_small.jpg used on input line
+ 44.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 48.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[12])
+[12 <./Couscous-Auflauf/IMG_6094_small.jpg>])
 \openout2 = `Gnocchi/rezept.aux'.
 
  (./Gnocchi/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 17.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -922,8 +1201,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 25.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -932,13 +1214,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Hummus/rezept.aux'.
 
  (./Hummus/rezept.tex
-Overfull \hbox (1.20834pt too wide) in paragraph at lines 16--20
-\T1/phv/m/n/12 zugeben. Tahina hinzugeben. Alles pürieren. Mit Salz, Pfeffer, u
-nd zusätzlichem Tahina
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 24.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -946,26 +1226,30 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [15
 
 
-]
-File: Hummus/IMG_6096._small.jpg Graphic file (type QTm)
- <use  "Hummus/IMG_6096._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+] <Hummus/IMG_6096_small.jpg, id=64, 1027.84pt x 685.56125pt>
+File: Hummus/IMG_6096_small.jpg Graphic file (type jpg)
+
+<use Hummus/IMG_6096_small.jpg>
+Package pdftex.def Info: Hummus/IMG_6096_small.jpg used on input line 28.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 32.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[16])
+[16 <./Hummus/IMG_6096_small.jpg>])
 \openout2 = `Ingwer-Curry/rezept.aux'.
 
  (./Ingwer-Curry/rezept.tex
-Overfull \hbox (5.45677pt too wide) in paragraph at lines 20--26
-\T1/phv/m/n/12 den Linsen geben und umrühren. Mit Salz und Pfeffer abschmecken.
- Mit Reis servieren. 
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 34.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -973,21 +1257,32 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [17
 
 
-]
-File: Ingwer-Curry/IMG_6088._small.jpg Graphic file (type QTm)
- <use  "Ingwer-Curry/IMG_6088._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+] <Ingwer-Curry/IMG_6088_small.jpg, id=71, 1027.84pt x 685.56125pt>
+File: Ingwer-Curry/IMG_6088_small.jpg Graphic file (type jpg)
+
+<use Ingwer-Curry/IMG_6088_small.jpg>
+Package pdftex.def Info: Ingwer-Curry/IMG_6088_small.jpg used on input line 38.
+
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 42.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[18])
+[18 <./Ingwer-Curry/IMG_6088_small.jpg>])
 \openout2 = `Ingwer-Zwiebel-Gericht/rezept.aux'.
 
  (./Ingwer-Zwiebel-Gericht/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 25.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -996,8 +1291,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 33.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1006,8 +1304,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Kartoffelecken/rezept.aux'.
 
  (./Kartoffelecken/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 22.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1016,8 +1317,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 30.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1026,13 +1330,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Kubanisches-Reisgericht/rezept.aux'.
 
  (./Kubanisches-Reisgericht/rezept.tex
-Overfull \hbox (26.2167pt too wide) in paragraph at lines 17--22
-\T1/phv/m/n/12 Zwiebeln, Knoblauch und Paprika klein schneiden und etwas Öl ans
-chwitzen. Tomaten,Reis
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 27.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1041,25 +1343,32 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: Kubanisches-Reisgericht/IMG_3600._small.jpg Graphic file (type QTm)
- <use  "Kubanisches-Reisgericht/IMG_3600._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+<Kubanisches-Reisgericht/IMG_3600_small.jpg, id=91, 1027.84pt x 685.56125pt>
+File: Kubanisches-Reisgericht/IMG_3600_small.jpg Graphic file (type jpg)
+
+<use Kubanisches-Reisgericht/IMG_3600_small.jpg>
+Package pdftex.def Info: Kubanisches-Reisgericht/IMG_3600_small.jpg used on inp
+ut line 31.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 35.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[24])
+[24 <./Kubanisches-Reisgericht/IMG_3600_small.jpg>])
 \openout2 = `Kichererbsen-Curry/rezept.aux'.
 
- (./Kichererbsen-Curry/rezept.tex
-Overfull \hbox (10.02855pt too wide) in paragraph at lines 20--26
-\T1/phv/m/n/12 Pfanne (oder Wok) kurz anbraten, dann Gemüse hinzugeben und zuge
-deckt bei mittlerer
- []
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
+(./Kichererbsen-Curry/rezept.tex
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 28.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1067,35 +1376,40 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [25
 
 
-]
-File: Kichererbsen-Curry/IMG_6111._small.jpg Graphic file (type QTm)
- <use  "Kichererbsen-Curry/IMG_6111._small.jpg" >
-File: Kichererbsen-Curry/IMG_6085._small.jpg Graphic file (type QTm)
+] <Kichererbsen-Curry/IMG_6111_small.jpg, id=99, 1027.84pt x 685.56125pt>
+File: Kichererbsen-Curry/IMG_6111_small.jpg Graphic file (type jpg)
 
-<use  "Kichererbsen-Curry/IMG_6085._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+<use Kichererbsen-Curry/IMG_6111_small.jpg>
+Package pdftex.def Info: Kichererbsen-Curry/IMG_6111_small.jpg used on input li
+ne 32.
+(pdftex.def)             Requested size: 226.19933pt x 150.86578pt.
+
+<Kichererbsen-Curry/IMG_6085_small.jpg, id=100, 1027.84pt x 685.56125pt>
+File: Kichererbsen-Curry/IMG_6085_small.jpg Graphic file (type jpg)
+
+<use Kichererbsen-Curry/IMG_6085_small.jpg>
+Package pdftex.def Info: Kichererbsen-Curry/IMG_6085_small.jpg used on input li
+ne 36.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 40.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[26])
+[26 <./Kichererbsen-Curry/IMG_6111_small.jpg> <./Kichererbsen-Curry/IMG_6085_sm
+all.jpg>])
 \openout2 = `Kuerbissuppe/rezept.aux'.
 
  (./Kuerbissuppe/rezept.tex
-Overfull \hbox (15.64375pt too wide) in paragraph at lines 22--28
-\T1/phv/m/n/12 weich ist (mit Gabel testen). Ingwer reinreiben. Salz/Pfeffer da
-zugeben und alles pürieren.
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 41.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-
-Overfull \hbox (18.90755pt too wide) in paragraph at lines 29--35
-[]\T1/phv/m/n/12 Kürbiskerne in einer Pfanne anrösten und zusammen mit Baguette
- zur Suppe servieren.
- []
-
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1104,8 +1418,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 41.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1114,13 +1431,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Korma/rezept.aux'.
 
  (./Korma/rezept.tex
-Overfull \hbox (4.79684pt too wide) in paragraph at lines 20--24
-\T1/phv/m/n/12 anbraten. Dann mit Wasser ablöschen, Mandeln untermischen, und b
-ei geschlossenem
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 26.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1128,21 +1443,30 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [29
 
 
-]
-File: Korma/IMG_3250._small.jpg Graphic file (type QTm)
- <use  "Korma/IMG_3250._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+] <Korma/IMG_3250_small.jpg, id=115, 1027.84pt x 685.56125pt>
+File: Korma/IMG_3250_small.jpg Graphic file (type jpg)
+
+<use Korma/IMG_3250_small.jpg>
+Package pdftex.def Info: Korma/IMG_3250_small.jpg used on input line 30.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 34.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[30])
+[30 <./Korma/IMG_3250_small.jpg>])
 \openout2 = `Maronen/rezept.aux'.
 
  (./Maronen/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 27.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1154,8 +1478,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Moehren-Kohl-Curry/rezept.aux'.
 
  (./Moehren-Kohl-Curry/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 27.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1164,8 +1491,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 35.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1174,8 +1504,11 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 \openout2 = `Pfannkuchen/rezept.aux'.
 
  (./Pfannkuchen/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 21.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1184,18 +1517,34 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 29.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
 [35])
-\openout2 = `Salatsausse/rezept.aux'.
+\openout2 = `RoteLinsenSuppe/rezept.aux'.
 
- (./Salatsausse/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+ (./RoteLinsenSuppe/rezept.tex
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 18.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Overfull \hbox (5.33994pt too wide) in paragraph at lines 18--19
+[]$\T1/cmtt/m/n/12 http : / / www . chefkoch . de / rezepte / 1718481280523737 
+/ Rote-[]Linsen-[]Kokos-[]Suppe .
+ []
+
+File: bg.jpg Graphic file (type jpg)
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 32.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
@@ -1203,147 +1552,198 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 [36
 
 
-]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+])
+\openout2 = `Salatsausse/rezept.aux'.
+
+ (./Salatsausse/rezept.tex
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 22.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[37])
+[37
+
+
+]
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 30.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
+Overfull \hbox (678.98459pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[38])
 \openout2 = `Schupfnudeln-Satee/rezept.aux'.
 
  (./Schupfnudeln-Satee/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 18.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[38
+[39
 
 
-]
-File: Schupfnudeln-Satee/IMG_6114._small.jpg Graphic file (type QTm)
- <use  "Schupfnudeln-Satee/IMG_6114._small.jpg" >
-File: Schupfnudeln-Satee/IMG_6108._small.jpg Graphic file (type QTm)
+] <Schupfnudeln-Satee/IMG_6114_small.jpg, id=149, 1027.84pt x 684.5575pt>
+File: Schupfnudeln-Satee/IMG_6114_small.jpg Graphic file (type jpg)
 
-<use  "Schupfnudeln-Satee/IMG_6108._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+<use Schupfnudeln-Satee/IMG_6114_small.jpg>
+Package pdftex.def Info: Schupfnudeln-Satee/IMG_6114_small.jpg used on input li
+ne 22.
+(pdftex.def)             Requested size: 226.19933pt x 150.64488pt.
+
+<Schupfnudeln-Satee/IMG_6108_small.jpg, id=150, 1027.84pt x 685.56125pt>
+File: Schupfnudeln-Satee/IMG_6108_small.jpg Graphic file (type jpg)
+
+<use Schupfnudeln-Satee/IMG_6108_small.jpg>
+Package pdftex.def Info: Schupfnudeln-Satee/IMG_6108_small.jpg used on input li
+ne 24.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 28.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[39])
+[40 <./Schupfnudeln-Satee/IMG_6114_small.jpg> <./Schupfnudeln-Satee/IMG_6108_sm
+all.jpg>])
 \openout2 = `Sherry-Risotto/rezept.aux'.
 
  (./Sherry-Risotto/rezept.tex
-Overfull \hbox (21.7523pt too wide) in paragraph at lines 19--28
-\T1/phv/m/n/12 Wasser oder Sherry nachfüllen. Regelmäßig umrühren, damit nichts
- am Boden anbrennt.
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 30.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[40
+[41
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 38.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[41])
+[42])
 \openout2 = `Schokocreme/rezept.aux'.
 
  (./Schokocreme/rezept.tex
-Overfull \hbox (1.07741pt too wide) in paragraph at lines 16--20
-\T1/phv/m/n/12 Mikrowelle warmmachen (mehrmals umrühren, Schokolade brennt schn
-ell an). Warme
- []
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 30.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
 
-
-Overfull \hbox (3.11673pt too wide) in paragraph at lines 16--20
-\T1/phv/m/n/12 Schokolade langsam mit Schneebesen unter die schaumigen Eier unt
-erheben. Mohnfix
- []
-
-File: bg.jpg Graphic file (type QTm)
-<use  "bg.jpg" >
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[42
+[43
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 38.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[43])
+[44])
 \openout2 = `VegChilli/rezept.aux'.
 
  (./VegChilli/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 34.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[44
+[45
 
 
 ]
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 55.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[45])
+[46])
 \openout2 = `Zucchini-Curry/rezept.aux'.
 
  (./Zucchini-Curry/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 29.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[46
+[47
 
 
-]
-File: Zucchini-Curry/IMG_5831._small.jpg Graphic file (type QTm)
- <use  "Zucchini-Curry/IMG_5831._small.jpg" >
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+] <Zucchini-Curry/IMG_5831_small.jpg, id=177, 1027.84pt x 685.56125pt>
+File: Zucchini-Curry/IMG_5831_small.jpg Graphic file (type jpg)
+
+<use Zucchini-Curry/IMG_5831_small.jpg>
+Package pdftex.def Info: Zucchini-Curry/IMG_5831_small.jpg used on input line 3
+3.
+(pdftex.def)             Requested size: 452.39865pt x 301.75249pt.
+File: bg.jpg Graphic file (type jpg)
+ <use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 37.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[47])
+[48 <./Zucchini-Curry/IMG_5831_small.jpg>])
 \openout2 = `Diverses/rezept.aux'.
 
  (./Diverses/rezept.tex
-File: bg.jpg Graphic file (type QTm)
- <use  "bg.jpg" >
+File: bg.jpg Graphic file (type jpg)
+
+<use bg.jpg>
+Package pdftex.def Info: bg.jpg used on input line 23.
+(pdftex.def)             Requested size: 1268.49332pt x 845.04684pt.
+
 Overfull \hbox (678.98459pt too wide) has occurred while \output is active
  [][] 
  []
 
-[48
+[49
 
 
 ]) (./kochbuch.aux (./Bauern-Omlette/rezept.aux) (./Bilder/rezept.aux)
@@ -1353,21 +1753,40 @@ Overfull \hbox (678.98459pt too wide) has occurred while \output is active
 (./Kubanisches-Reisgericht/rezept.aux) (./Kichererbsen-Curry/rezept.aux)
 (./Kuerbissuppe/rezept.aux) (./Korma/rezept.aux) (./Maronen/rezept.aux)
 (./Moehren-Kohl-Curry/rezept.aux) (./Pfannkuchen/rezept.aux)
-(./Salatsausse/rezept.aux) (./Schupfnudeln-Satee/rezept.aux)
-(./Sherry-Risotto/rezept.aux) (./Schokocreme/rezept.aux)
-(./VegChilli/rezept.aux) (./Zucchini-Curry/rezept.aux) (./Diverses/rezept.aux))
+(./RoteLinsenSuppe/rezept.aux) (./Salatsausse/rezept.aux)
+(./Schupfnudeln-Satee/rezept.aux) (./Sherry-Risotto/rezept.aux)
+(./Schokocreme/rezept.aux) (./VegChilli/rezept.aux)
+(./Zucchini-Curry/rezept.aux) (./Diverses/rezept.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.83pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 16115 strings out of 495658
- 306877 string characters out of 6187904
- 384861 words of memory out of 5000000
- 18820 multiletter control sequences out of 15000+600000
- 20064 words of font info for 38 fonts, out of 8000000 for 9000
+ 17102 strings out of 494968
+ 322157 string characters out of 6178964
+ 405610 words of memory out of 5000000
+ 19798 multiletter control sequences out of 15000+600000
+ 22628 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 64i,16n,60p,420b,727s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,16n,60p,409b,730s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/mweigand/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </hom
+e/mweigand/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1200.600pk> </home/mweiga
+nd/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/mweigand/.texm
+f-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/mweigand/.texmf-var/fo
+nts/pk/ljfour/jknappen/ec/ecbx1728.600pk>{/usr/share/texlive/texmf-dist/fonts/e
+nc/dvips/base/8r.enc} </home/mweigand/.texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+bx3583.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on kochbuch.pdf (49 pages, 1948862 bytes).
+PDF statistics:
+ 378 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on kochbuch.pdf (48 pages).
