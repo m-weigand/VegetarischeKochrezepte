@@ -6,6 +6,8 @@
 
 % use multiple bibliographies
 
+\usepackage{hyperref}
+
 %\usepackage{multibib}
 %\newcites{pap}{References}
 %\newcites{app}{ }
@@ -50,7 +52,7 @@
 % Title of bibliography
 \renewcommand\refname{References}
 
-% 
+%
 \usepackage{ifthen}
 
 %
@@ -85,7 +87,7 @@
 	\begin{center}
 	\begin{minipage}{0.5\textwidth}
 		\begin{center}
-		
+
 		\end{center}
 	\end{minipage}
 	\end{center}
@@ -139,7 +141,7 @@
 \newcommand{\newoddside}{
 	\ifthenelse{\isodd{\thepage}}{
 		\newpage
-		\textcolor{white}{placeholder} 
+		\textcolor{white}{placeholder}
 		%\thispagestyle{empty}
 		\newpage
 	}
@@ -302,6 +304,7 @@
 
 \include{Bauern-Omlette/rezept}
 \include{Bilder/rezept}
+\include{Broccoli-Curry/rezept}
 \include{Cashew-Ringelnudeln/rezept}
 \include{Couscous-Auflauf/rezept}
 \include{Gnocchi/rezept}
@@ -320,6 +323,7 @@
 \include{Pfannkuchen/rezept}
 \include{RoteLinsenSuppe/rezept}
 \include{Salatsausse/rezept}
+\include{Satee-Sauce/rezept}
 \include{Schupfnudeln-Satee/rezept}
 \include{Sherry-Risotto/rezept}
 \include{Schokocreme/rezept}
